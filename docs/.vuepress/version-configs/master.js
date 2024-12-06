@@ -29,6 +29,8 @@ module.exports = [
         children: setVersionPrefix([
             ['introduction/requirements', 'Requirements'],
             ['introduction/installation', 'Installation'],
+            ['introduction/creating-newuser', 'Creating a New User'],
+            ['introduction/configuring_supervisor', 'Configuring Supervisor'],
         ])
     },
     {
@@ -87,6 +89,7 @@ module.exports = [
             ['advanced/helpers', 'Helpers'],
             ['advanced/override-core-model', 'Override Core Models'],
             ['advanced/render-event', 'View Render Event'],
+            ['advanced/security-practice', 'Best Security Practices'],
         ])
     },
     {
